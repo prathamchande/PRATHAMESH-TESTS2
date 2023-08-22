@@ -623,7 +623,94 @@ box-shadow: 0px 0px 5px 10px #e64e411c;
 
 
 
+.section_four{
+    background: #fff;
+    margin: -24px -24px -16px;
+position: relative;
+padding-top: 50px;
+min-height: auto;
+.top_sec{
+    z-index: 3;
+    position: relative;
+    h2{
+        max-width: 500px;
+        margin-left: 24px;
+        z-index: 2;
+    position: relative;
+    @media screen and (max-width: 860px) {
+        padding-top: 150px;
+        font-size: 34px;
+        text-align: center;
+        margin: auto;
+    }
+    }
+        .cloudtext{
+               background: url(./assets/cloud2.png) no-repeat;
+               position: absolute;
+               height: 250px;
+               width: 450px;
+               right: 0;
+               background-position: center;
+               top: -110px;
+               display: block;
+               background-size: contain;
+               z-index: 1;
+               .text_cloud{
+                position: absolute;
+                transform: translate(-50%, 50%);
+                left: 50%;
+                top: 15%;
+                color: #104da1;
+                text-align: center;
+                font-size: 15px;
+                font-weight: 800;
+               }
+        }
 
+}
+
+.bottom_card_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 24px;
+    flex-flow: row wrap;
+    @media screen and (max-width: 860px) {
+     justify-content: center;
+    }
+    .future_kids_card{
+        display: flex;
+    box-shadow: 0px 0px 5px 5px #eff3f9;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    margin: 20px;
+        .sec_left_icon{
+            i{
+                color: #e64e41;
+                font-size: 28px;
+                margin-right: 16px;
+            }
+        }
+.right_section{
+    .number_text{
+        font-size: 18px;
+        font-weight: 800;
+    }
+.text_dect{
+    font-size: 16px;
+    color: #a1a1a1;
+    font-weight: 700;
+}
+}
+    }
+
+
+}
+
+
+}
 
 
 
