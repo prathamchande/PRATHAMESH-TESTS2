@@ -453,6 +453,7 @@ h2 {
   .main_section .section_three .smarty_program {
     flex-flow: column;
     justify-content: center;
+    align-items: center;
   }
 }
 .main_section .section_three .smarty_program .card_sec_smarty {
@@ -463,6 +464,7 @@ h2 {
 @media screen and (max-width: 768px) {
   .main_section .section_three .smarty_program .card_sec_smarty {
     padding: 24px;
+    max-width: 400px;
   }
 }
 .main_section .section_three .smarty_program .card_sec_smarty .image_card {

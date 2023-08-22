@@ -570,6 +570,7 @@ margin: 24px;
 @media screen and (max-width: 768px) {
     flex-flow: column;
     justify-content: center;
+    align-items: center;
 }
         .card_sec_smarty{
             text-align: center;
@@ -577,7 +578,8 @@ margin: 24px;
             padding-top: 0;
 
             @media screen and (max-width: 768px) {
-             padding: 24px;
+                padding: 24px;
+    max-width: 400px;
             }
                
             .image_card{
