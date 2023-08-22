@@ -585,6 +585,7 @@ h2 {
   align-items: center;
   padding: 16px;
   margin: 20px;
+  min-width: 250px;
 }
 .main_section .section_four .bottom_card_section .future_kids_card .sec_left_icon i {
   color: #e64e41;
