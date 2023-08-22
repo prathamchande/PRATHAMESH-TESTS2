@@ -219,7 +219,9 @@ h2 {
         justify-content: space-between;
         margin: 100px 24px;
         position: relative;
-
+        @media screen and (max-width: 768px) {
+margin: 100px 0px;
+        }
         .top_left_banner {
             min-width: 50%;
 
@@ -657,6 +659,9 @@ min-height: auto;
                display: block;
                background-size: contain;
                z-index: 1;
+               @media screen and (max-width: 768px) {
+                width: 350px;
+                                }
                .text_cloud{
                 position: absolute;
                 transform: translate(-50%, 50%);
@@ -666,6 +671,10 @@ min-height: auto;
                 text-align: center;
                 font-size: 15px;
                 font-weight: 800;
+
+                @media screen and (max-width: 768px) {
+font-size: 12px;
+                }
                }
         }
 
